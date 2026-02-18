@@ -18,3 +18,27 @@ student-query-classification/
 ├── main.py
 ├── requirements.txt
 └── README.md
+ Setup Instructions
+Prerequisites
+Python 3.8 or higher installed
+Basic knowledge of running Python scripts
+Check Python version:
+python --version
+Install Dependencies
+If using external libraries:
+pip install -r requirements.txt
+If no external libraries are used, this step can be skipped.
+Run the Application
+python main.py
+ Example Usage
+Input:
+Enter student question: What is gradient descent?
+
+Output:
+{
+  "intent": "Explanation",
+  "topic": "Optimization",
+  "difficulty_level": "Advanced"
+}
+
+
